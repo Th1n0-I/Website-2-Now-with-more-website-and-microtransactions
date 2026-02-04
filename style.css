@@ -1,0 +1,65 @@
+:root {
+    --background-color: linear-gradient(#f8f3Ec, #5FA2F2);
+    --border-radius: 10px;
+}
+
+img {
+    align-self: center;
+    border-radius: 100%;
+    box-shadow: 20px;
+}
+
+body {
+    background: var(--background-color);
+    text-align: center;
+    border-color: #5FA2F2;
+}
+
+header {
+    border: solid;
+    border-radius: var(--border-radius);
+    border-color: #5FA2F2;
+}
+
+div {
+    border: solid;
+    border-radius: var(--border-radius);
+    border-color: #5FA2F2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    border: solid;
+    border-radius: var(--border-radius);
+    border-color: #F8F3EC;
+    text-align: left;
+}
+
+.rainbow a {
+    color: #F8F3EC;
+}
+
+.grid-wid-img {
+    padding: 20px;
+    justify-content: center;
+    grid-template-areas:
+        "a c"
+        "b c";
+    gap: 10px;
+    display: grid;
+}
+
+.animated {
+    animation: spin 0.67s infinite ease-in-out
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
