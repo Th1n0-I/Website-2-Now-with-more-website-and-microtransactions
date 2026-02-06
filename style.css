@@ -10,7 +10,7 @@ img {
 }
 
 body {
-    background: var(--background-color);
+    background-image: url(https://images2.alphacoders.com/735/thumb-1920-735315.png);
     text-align: center;
     border-color: #5FA2F2;
 }
